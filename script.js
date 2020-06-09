@@ -28,13 +28,13 @@ function game(playerChoose) {
             img.style.top = "0";
             img.style.left = "0";
             img.style.right = "0";
-            img.style.backgroundImage = "url('sprite/gif/" + randomImg + ".gif')";
+            img.style.backgroundImage = "url('" + randomImg + ".gif')";
             
             document.body.appendChild(img);
             
             let soundNoise = document.getElementById('audioNoise');
             soundNoise.play();
       }else {
-            event.target.style.backgroundImage = "url('sprite/ballClicked.png')";
+            event.target.style.backgroundImage = "url('ballClicked.png')";
       }
 }
