@@ -1,0 +1,41 @@
+*
+{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body {
+      background: #8FB5D2;
+}
+#buttons {
+      padding-top: 100px;
+      margin: 0 auto;
+      width:  80%;
+      text-align: center;
+}
+#lost {
+      display: none;
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      
+}
+#lost button{
+      width: 200px;
+      height: 30px;
+      font-family: 'Metal Mania', cursive;
+      color: orange;    
+}
+#buttons button {
+      width: 60px;
+      height: 60px;
+      border-radius:50%;
+      background-image: url('sprite/ball.png');
+      background-position: center center;
+      border:1px solid #89AFCC;
+      box-shadow: 1px 5px 15px #89AFCC;
+}
+h1 {
+      font-family: 'Metal Mania', cursive;
+      color: orange;
+}
